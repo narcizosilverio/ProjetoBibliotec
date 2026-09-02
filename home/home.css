@@ -217,3 +217,19 @@ width: 80%;
     padding: 0 120px;
     color: var(--branco);
 }
+
+.carrossel-livros {
+     height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.carrossel-livros h4 {
+     font-size: 1.5em;
+    width: 50%;
+}

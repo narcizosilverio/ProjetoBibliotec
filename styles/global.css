@@ -11,6 +11,8 @@ box-sizing: border-box;
     --texto: #26333d;
     --branco: #ffffff;
     --cor-destaque: #2fd6cb;
+    --fundos: #e9f0ef;
+    
 
 }
 
@@ -23,3 +25,47 @@ body {
     background-color: var(--branco);
     color: var(--texto);
 }
+
+
+
+
+
+/*cabecalho*/
+
+a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.cabecalho {
+    background-color: var(--azul-escuro);
+
+    display: flex;
+    /*por padrao o flex vem na  direcao row/linha*/
+    /*flex-directiom: row;*/
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 120px;
+
+    height: 10vh;
+    /* 10% de vsiu vertical do dispostivo/navegador*/
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.navegacao a {
+    text-transform: uppercase;
+    /*1rem -> equivale a 16px (padrao da raiz do HTML*/
+    /*em -> pega o tamanho da tipografia do elemento pai*/
+    font-size: 1em;
+    font-weight: 500;
+}
+
+

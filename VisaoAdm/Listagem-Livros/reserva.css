@@ -1,5 +1,4 @@
 
-
 .area-busca {
     display: flex;
     align-items: center;
@@ -122,9 +121,6 @@ font-weight: 700;
     gap: 20px;
 }
 
-.lista-livros p {
-  
-}
 
 .livro {
     display: grid;
@@ -165,7 +161,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked /*psedeu classe*/ {
-background-color: var(--cor-destaque);
+background-color: #003366;
 border: none;
 }
 
@@ -261,4 +257,8 @@ color: var(--branco);
 
 font-size: 0.8em;
 font-weight: 700;
+}
+
+.retirado {
+    background-color: greenyellow;
 }
